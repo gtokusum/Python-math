@@ -17,5 +17,5 @@ def double_int():
 	return integrate.dblquad(f,0,2,lambda x:0,lambda x:1)
 
 if __name__ == '__main__':
+	#print(get_integral())
 	print(double_int())
-	
