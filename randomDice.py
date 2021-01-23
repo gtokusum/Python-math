@@ -6,6 +6,7 @@ import numpy as np
 def getint(n): #n = the number of sides of the die
     return rn.randint(1,n) + rn.randint(1,n)
 
+#dice = number of sides, exp = number of rolls 
 def plot(dice,exp):
     #get random dice rolls
     y = [getint(dice) for i in range(exp)]
@@ -32,6 +33,6 @@ def plot(dice,exp):
     plt.title(title)
     plt.show()
     
-plot(4,10000)
+plot(6,10000)
 
 
