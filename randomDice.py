@@ -2,7 +2,9 @@ import random as rn
 import matplotlib.pyplot as plt
 from scipy.stats import norm
 import numpy as np
-
+'''
+program to show distribution of dice rolls
+'''
 def getint(n): #n = the number of sides of the die
     return rn.randint(1,n) + rn.randint(1,n)
 
