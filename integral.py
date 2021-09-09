@@ -3,12 +3,8 @@ import scipy.integrate as integrate
 
 
 
-def get_integral():
-	e = input("input eq: ")
-	eq = lambda x:eval(e)
-	a = int(input("input lower value: "))
-	b = int(input("input upper value: "))
-	return integrate.quad(eq,a,b)
+def get_integral(f, a, b):
+	return integrate.quad(f,a,b)
 
 # print(get_integral())
 
@@ -17,5 +13,5 @@ def double_int():
 	return integrate.dblquad(f,0,2,lambda x:0,lambda x:1)
 
 if __name__ == '__main__':
-	#print(get_integral())
+	print(get_integral(lambda x:x**2,0,1))
 	print(double_int())
