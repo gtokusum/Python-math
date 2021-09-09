@@ -16,4 +16,3 @@ if __name__ == "__main__":
     fx = lambda x:x - 2*math.sin(x)
     ans = bisection(fx,1.5,2.5,10**(-5),0)
     print(ans)
-    # print(math.sin(1.5))
