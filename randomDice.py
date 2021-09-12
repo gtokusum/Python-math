@@ -35,6 +35,6 @@ def plot(dice,exp):
     plt.title(title)
     plt.show()
     
-plot(6,10000)
+plot(6,100000)
 
 
