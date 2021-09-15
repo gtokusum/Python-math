@@ -15,5 +15,5 @@ def multiDeriv(fx, wrF, wrS):
     fxPrime = fxPrime.diff(wrS)
     return fxPrime
 
-print(multiDeriv(x**4+x*y**4,x,y))
+# print(multiDeriv(x**4+x*y**4,x,y))
 
