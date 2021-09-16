@@ -17,4 +17,3 @@ def Secant(f,a,b,tau):
 f = lambda x: (x-2)**2 - math.log(x)
 
 print(Secant(f,1,2,10**-5))
-# print(f(1)-f(2))
